@@ -5,7 +5,7 @@
  void jain(int a)
  {
  sound((a*8)/2);
- delay(300);
+ delay(100);
  nosound();
  }
  
@@ -15,7 +15,7 @@
  fstream file1;
  file1.open(argv[1],ios::out);
  clrscr();
- cout<<"PIANO "<<" If you are fed up with this crap then press 'q'.";
+ cout<<"PIANO "<<" press q to exit from this";
  while(dude!='q')
  {
  jain(dude);
