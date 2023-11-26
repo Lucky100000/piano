@@ -28,5 +28,7 @@ if(dude!='q')
 }
  
 file1.close();
+  cout "want to play again";
+  cout "y for yes and n for n";
  
 } 
